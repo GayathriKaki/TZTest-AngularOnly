@@ -1,0 +1,20 @@
+<div style="text-align:left;width:500px;">
+  <h1>
+      {{ title }}!
+  </h1>
+
+<div  class="divBorder" [style.width.px]="[columnsCount] * 100 + [columnsCount]  * 2">
+
+  <div  *ngFor="let row of columns" class="menu"  class="innerDiv" 
+ >
+    <div *ngFor="let item of row.Lockers" class="itemDiv" tabindex="-1" [style.height.px]="[item.Size] * 30">
+       {{ item.Name }} 
+    </div>
+
+   
+  </div>
+  
+</div>
+
+
+</div>

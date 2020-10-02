@@ -1,0 +1,39 @@
+.divBorder
+    border: 10px solid lightgrey
+
+.innerDiv
+    display: inline-block    
+    vertical-align: top
+
+.itemDiv 
+    border: 0.1px solid white
+    background-color:  #4CAF50
+    width: 100px     
+    &:focus
+        cursor:pointer
+        animation-duration: 500ms
+        animation-name: blink
+        animation-iteration-count: infinite
+        animation-direction: alternate
+    &:hover
+        cursor:pointer
+        animation-duration: 500ms
+        animation-name: blink
+        animation-iteration-count: infinite
+        animation-direction: alternate
+
+
+.blink_me 
+   animation-duration: 500ms
+   animation-name: blink
+   animation-iteration-count: infinite
+   animation-direction: alternate
+
+@keyframes blink 
+   from 
+       background-color: #3CB44B
+   
+   to 
+       background-color: #FF6A00
+   
+ 

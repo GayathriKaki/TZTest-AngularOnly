@@ -1,0 +1,84 @@
+{
+  "Columns": [
+    {
+      "Lockers": [
+        {
+          "Name": "A1",
+          "Size": 3
+        },
+        {
+          "Name": "A2",
+          "Size": 3
+        },
+        {
+          "Name": "A3",
+          "Size": 3
+        },
+        {
+          "Name": "A4",
+          "Size": 3
+        }
+      ]
+    },
+    {
+      "Lockers": [
+        {
+          "Name": "A5",
+          "Size": 3
+        },
+        {
+          "Name": "A6",
+          "Size": 1
+        },
+        {
+          "Name": "A7",
+          "Size": 0.9
+        },
+        {
+          "Name": "A8",
+          "Size": 1
+        },
+        {
+          "Name": "A9",
+          "Size": 1
+        },
+        {
+          "Name": "A10",
+          "Size": 0.9
+        },
+        {
+          "Name": "A11",
+          "Size": 1
+        },
+        {
+          "Name": "A12",
+          "Size": 3
+        }
+      ]
+    },
+    {
+      "Lockers": [
+        {
+          "Name": "A13",
+          "Size": 2
+        },
+        {
+          "Name": "A14",
+          "Size": 2
+        },
+        {
+          "Name": "A15",
+          "Size": 4
+        },
+        {
+          "Name": "A16",
+          "Size": 2
+        },
+        {
+          "Name": "A17",
+          "Size": 2
+        }
+      ]
+    }
+  ]
+}
